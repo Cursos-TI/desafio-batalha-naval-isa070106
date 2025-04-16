@@ -3,6 +3,7 @@
 #define TAM_TABULEIRO 10
 #define TAM_HABILIDADE 5 // Tamanho das matrizes de habilidade (5x5)
 
+
 // Função para inicializar o tabuleiro com água (0)
 void inicializarTabuleiro(int tabuleiro[TAM_TABULEIRO][TAM_TABULEIRO]) {
     for (int i = 0; i < TAM_TABULEIRO; i++) {
